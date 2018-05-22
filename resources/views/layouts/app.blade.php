@@ -8,7 +8,7 @@
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
-    <title>{{ config('app.name', 'Laravel') }}</title>
+    <title>{{ config('app.name', 'GSRS') }}</title>
 
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
@@ -46,9 +46,14 @@
                            <!--  <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li> -->
                         @else
+                        <ul class="nav navbar-nav navbar-left">
+                                <li><a href="{{ route('school') }}">Schools Registed</a></li>
+                                <li><a href="#">Advertise</a></li>
+                                <li><a href="{{ route('create') }}">create</a></li>
+                            </ul>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
-                                    {{ Auth::user()->name }} <span class="caret"></span>
+                                    {{ Auth::user()->job_title }} <span class="caret"></span>
                                 </a>
 
                                 <ul class="dropdown-menu" role="menu">
@@ -70,8 +75,13 @@
                 </div>
             </div>
         </nav>
-
+        <div class="container">
+        <div class="row">
+        <div class="col-md-8">
         @yield('content')
+        </div>
+        </div>
+        </div>
     </div>
 
     <!-- Scripts -->

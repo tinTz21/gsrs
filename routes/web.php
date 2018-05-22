@@ -27,7 +27,7 @@ Route::prefix('officer')->group(function(){
     Route::get('/','OfficerController@index')->name('officer.dashboard');
 });
 
-
+ 
 //this is Route for admins
 Route::prefix('admin')->group(function(){
 	Route::get('/login','Auth\AdminLoginController@showLoginForm')->name('admin.login');
@@ -35,3 +35,8 @@ Route::prefix('admin')->group(function(){
 	Route::get('/','AdminController@index')->name('admin.dashboard');
 	Route::get('/logout','Auth\AdminLoginController@logout')->name('admin.logout');
 });
+
+Route::get('pages.schoollist','OfficerController@schoollist')->name('school');
+Route::get('pages/{id}','OfficerController@show')->name('show');
+Route::get('pages.create','OfficerController@create')->name('create');
+Route::post('pages.store', 'OfficerController@store')->name('store');
