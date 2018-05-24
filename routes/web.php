@@ -40,3 +40,5 @@ Route::get('pages.schoollist','OfficerController@schoollist')->name('school');
 Route::get('pages/{id}','OfficerController@show')->name('show');
 Route::get('pages.create','OfficerController@create')->name('create');
 Route::post('pages.store', 'OfficerController@store')->name('store');
+
+Route::get('pages.taarifayashule','HeadmasterFormsController@shule')->name('taarifayashule');

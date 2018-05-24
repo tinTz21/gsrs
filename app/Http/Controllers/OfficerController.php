@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-use Comment;
+use App\Comment;
 
 use App\Http\Requests\CommentRequest;
 use Request;
@@ -48,7 +48,7 @@ class OfficerController extends Controller
     {
         $request=Request::all();
         Comment::create($request);
-        return redirect('officer.dashboard');
+        return redirect('officer');
     }
 
     /**

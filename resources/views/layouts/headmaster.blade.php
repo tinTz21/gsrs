@@ -46,6 +46,14 @@
                             <!-- <li><a href="{{ route('login') }}">Login</a></li>
                             <li><a href="{{ route('register') }}">Register</a></li> -->
                         @else
+                        <ul class="nav navbar-nav navbar-left">
+                            <li><a href="{{ route('taarifayashule') }}">Taarifa ya shule</a></li>
+                            <li><a href="#">Taarifa ya Walimu</a></li>
+                            <li><a href="#">Taarifa za Wanafunzi</a></li>
+                            <li><a href="#">Huduma zinazotolewa shuleni</a></li>
+                            <li><a href="#">Toa Maoni ya Dodoso</a></li>
+                        </ul>
+                        
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->schoolname }} <span class="caret"></span>
@@ -70,8 +78,11 @@
                 </div>
             </div>
         </nav>
-
-        @yield('content')
+        <nav class="container">
+        <nav class="row">
+            @yield('content')
+        </nav>
+        </nav>
     </div>
 
     <!-- Scripts -->
