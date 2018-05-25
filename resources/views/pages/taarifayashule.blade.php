@@ -1,13 +1,13 @@
 @extends('layouts.headmaster')
 
 @section('content')
-{!! Form::open() !!}
+{!! Form::open(['action'=>'HeadmasterFormsController@store','method'=>'POST']) !!}
 
 <div class="col-md-8 col-md-offset-2">
 <h4 style="text-align: center;">TAARIFA YA SHULE</h4>
 	<div class="form-group">
-	{!! Form::label('name','JINA LA SHULE') !!}
-	{!! Form::text('name',null,['class'=>'form-control']) !!}
+	{!! Form::label('jinalashule','JINA LA SHULE') !!}
+	{!! Form::text('jinalashule',null,['class'=>'form-control']) !!}
 	</div>
 
 	<div class="form-group">
@@ -41,7 +41,7 @@
 		{!! Form::label('usajili','NAMBA YA USAJILI') !!}
 		{!! Form::text('usajili') !!}&nbsp;&nbsp;&nbsp;&nbsp;
 		{!! Form::label('tareheusajili','TAREHE YA USAJILI') !!}
-		{!! Form::number('tareheusajili') !!}
+		{!! Form::date('tareheusajili', \Carbon\Carbon::now()) !!}
 	</div>
 
 	<div class="form-group">
@@ -97,7 +97,7 @@
 	</div>
 
 	<div class="form-group">
-		{!! Form::submit('submit report',['class'=>'btn btn-primary form-control']) !!}
+		{!! Form::submit('submit report',['class'=>'btn btn-danger form-control']) !!}
 	</div>
 
 </div>
