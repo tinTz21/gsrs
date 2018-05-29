@@ -29,7 +29,7 @@ class TaarifayashuleRequest extends FormRequest
             'mkoa'=>'required',
             'anwani'=>'required',
             'nukushi'=>'required',
-            'halmashauri'=>'required'
+            'halmashauri'=>'required',
             'mji'=>'required',
             'baruapepe'=>'required|email',
             'kata'=>'required',
@@ -44,13 +44,13 @@ class TaarifayashuleRequest extends FormRequest
             'mchepuo'=>'required',
             'kidato'=>'required',
             'ainashule'=>'required',
-            'eneo'=>'required'
+            'eneo'=>'required',
             'hati'=>'required',
             'hatinamba'=>'required',
             'hatitarehe'=>'required',
             'mitazamraba'=>'required',
             'latitude'=>'required',
-            'longitude'=>'required'
+            'longitude'=>'required',
         ];
     }
 }

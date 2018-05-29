@@ -97,7 +97,7 @@
 	</div>
 
 	<div class="form-group">
-		{!! Form::submit('submit report',['class'=>'btn btn-danger form-control']) !!}
+		{!! Form::submit('submit report',['class'=>'btn btn-primary form-control']) !!}
 	</div>
 
 </div>

@@ -15,6 +15,7 @@ Route::get('/', function () {
     return view('welcome');
 });
 
+
 Auth::routes();
 
 Route::get('/home', 'HomeController@index')->name('home');
@@ -42,4 +43,4 @@ Route::get('pages.create','OfficerController@create')->name('create');
 Route::post('pages.store', 'OfficerController@store')->name('store');
 
 Route::get('pages.taarifayashule','HeadmasterFormsController@shule')->name('taarifayashule');
-Route::post('pages','HeadmasterFormsController@store')->name('hifadhi');
+Route::post('pages','HeadmasterFormsController@store');

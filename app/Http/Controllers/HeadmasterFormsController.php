@@ -2,9 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use App\Http\Requests\TaarifayashuleRequest;
 use Request;
-
+use App\Http\Requests\TaarifayashuleRequest;
+use App\Taarifayashule;
 
 class HeadmasterFormsController extends Controller
 {
@@ -43,7 +43,7 @@ class HeadmasterFormsController extends Controller
     {
         $request=Request::all();
         Taarifayashule::create($request);
-        return redirect('pages.school');
+        return redirect('pages.taarifayashule');
     }
 
     /**
