@@ -44,3 +44,5 @@ Route::post('pages.store', 'OfficerController@store')->name('store');
 
 Route::get('pages.taarifayashule','HeadmasterFormsController@shule')->name('taarifayashule');
 Route::post('pages','HeadmasterFormsController@store');
+
+Route::get('pages.waalimu','HeadmasterWaalimuController@index')->name('waalimu');

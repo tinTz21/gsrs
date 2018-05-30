@@ -48,8 +48,8 @@
                         @else
                         <ul class="nav navbar-nav navbar-left">
                             <li><a href="{{ route('taarifayashule') }}">Taarifa ya shule</a></li>
-                            <li><a href="#">Taarifa ya Walimu</a></li>
-                            <li><a href="#">Taarifa za Wanafunzi</a></li>
+                            <li><a href="{{ route('waalimu') }}">Taarifa za Wanafunzi</a></li>
+                            <li><a href="#">Taarifa za Walimu</a></li>
                             <li><a href="#">Huduma zinazotolewa shuleni</a></li>
                             <li><a href="#">Toa Maoni ya Dodoso</a></li>
                         </ul>
