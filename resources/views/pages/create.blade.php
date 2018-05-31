@@ -15,12 +15,6 @@
 	</div>
 
 	<div class="form-group">
-		{!! Form::label('comment','Your comment') !!}
-		{!! Form::checkbox('name', 'value'); !!}
-		{!! Form::label('comment','Your comment') !!}
-		{!! Form::checkbox('name', 'value'); !!}
-	</div>
-	<div class="form-group">
 		{!! Form::submit('Submit',['class'=>'btn btn-primary']) !!}
 	</div>
 </div>

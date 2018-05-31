@@ -50,8 +50,8 @@
                             <li><a href="{{ route('taarifayashule') }}">Taarifa ya shule</a></li>
                             <li><a href="{{ route('wanafunzi') }}">Taarifa za Wanafunzi</a></li>
                             <li><a href="{{ route('walimu') }}">Taarifa za Walimu</a></li>
-                            <li><a href="#">Huduma zinazotolewa shuleni</a></li>
-                            <li><a href="#">Toa Maoni ya Dodoso</a></li>
+                            <li><a href="{{ route('huduma') }}">Huduma zinazotolewa shuleni</a></li>
+                            <li><a href="{{ route('dodoso') }}">Toa Maoni ya Dodoso</a></li>
                         </ul>
                         
                             <li class="dropdown">
