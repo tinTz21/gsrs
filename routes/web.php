@@ -49,5 +49,7 @@ Route::get('pages.wanafunzi','HeadmasterWanafunziController@index')->name('wanaf
 Route::get('pages.walimu','HeadmasterWalimuController@index')->name('walimu');
 
 Route::get('pages.huduma','HeadmasterHudumaController@index')->name('huduma');
+Route::post('pages.hudumas','HeadmasterHudumaController@store')->name('hudumas');
 
 Route::get('pages.dodoso','HeadmasterDodosoController@index')->name('dodoso');
+Route::post('pages.maoni','HeadmasterDodosoController@store')->name('maoni');

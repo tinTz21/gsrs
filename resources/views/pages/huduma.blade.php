@@ -4,14 +4,14 @@
 
 <h3 style="text-align: center;">HUDUMA ZINAZOTOLEWA SHULENI</h3>&nbsp;<hr>
 
-{!! Form::open() !!}
+{!! Form::open(['action'=>'HeadmasterHudumaController@store','method'=>'POST']) !!}
 <div class="col-md-offset-2">
 	<div class="form-group">
 	{!! Form::label('usafiri','USAFIRI',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('usafiri',['UPO','HAUPO']) !!}
+		{!! Form::select('usafiri',['U'=>'UPO','H'=>'HAUPO']) !!}
 	</div>
-</div>
+	</div>
 
 <div class="form-group">
 	{!! Form::label('firstaid','HUDUMA YA KWANZA',['class'=>'col-md-3 control-label']) !!}
@@ -23,7 +23,7 @@
 <div class="form-group">
 	{!! Form::label('ulinzi','ULINZI WA SHULE',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('ulizi',['UPO','HAUPO']) !!}
+		{!! Form::select('ulinzi',['UPO','HAUPO']) !!}
 	</div>
 </div>
 
@@ -51,9 +51,7 @@
 <div class="form-group col-md-6 col-md-offset-2">
 	{!! Form::submit('Send',['class'=>'btn btn-primary col-md-9 form-control']) !!}
 </div>
-
 </div>
 
 {!! Form::close() !!}
-
 @endsection

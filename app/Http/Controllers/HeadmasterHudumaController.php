@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use Request;
+use App\Http\Requests\HudumaRequest;
+use App\Huduma;
 
 class HeadmasterHudumaController extends Controller
 {
@@ -32,9 +34,11 @@ class HeadmasterHudumaController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(HudumaRequest $request)
     {
-        //
+        $request=Request::all();
+        Huduma::create($request);
+        return view('pages.taarifayashule');
     }
 
     /**

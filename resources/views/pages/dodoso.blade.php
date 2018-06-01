@@ -3,7 +3,7 @@
 <h3 style="text-align: center;">TOA MAONI KUHUSIANA NA DODOSO HILI</h3>
 <p style="text-align: center; font-size: 17px;">Orodhesha vipengele ambavyo havieleweki au havijakamilika katika Dodoso hili:</p>
 
-{!! Form::open() !!}
+{!! Form::open(['action'=>'HeadmasterDodosoController@store','method'=>'POST']) !!}
 <div class="col-md-9 col-md-offset-2">	
 	<div class="form-group">
 	{!! Form::label('maoni','TOA DODOSO') !!}

@@ -1,8 +1,10 @@
 <?php
 
 namespace App\Http\Controllers;
+use App\Maoni;
 
-use Illuminate\Http\Request;
+use Request;
+use App\Http\Requests\MaoniRequest;
 
 class HeadmasterDodosoController extends Controller
 {
@@ -32,9 +34,11 @@ class HeadmasterDodosoController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(MaoniRequest $request)
     {
-        //
+        $dodoso=Request::all();
+        Maoni::create($dodoso);
+        return redirect('pages.taarifayashule');
     }
 
     /**
