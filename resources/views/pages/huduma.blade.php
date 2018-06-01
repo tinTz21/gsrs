@@ -9,42 +9,42 @@
 	<div class="form-group">
 	{!! Form::label('usafiri','USAFIRI',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('usafiri',['U'=>'UPO','H'=>'HAUPO']) !!}
+		{!! Form::select('usafiri',['UPO'=>'UPO','HAUPO'=>'HAUPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 	</div>
 
 <div class="form-group">
 	{!! Form::label('firstaid','HUDUMA YA KWANZA',['class'=>'col-md-3 control-label']) !!}
 	<div class="col-md-3">
-		{!! Form::select('firstaid',['IPO','HAIPO']) !!}
+		{!! Form::select('firstaid',['IPO'=>'IPO','HAIPO'=>'HAIPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 </div></br>&nbsp;
 
 <div class="form-group">
 	{!! Form::label('ulinzi','ULINZI WA SHULE',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('ulinzi',['UPO','HAUPO']) !!}
+		{!! Form::select('ulinzi',['UPO'=>'UPO','HAUPO'=>'HAUPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 </div>
 
 <div class="form-group">
 	{!! Form::label('duka','DUKA',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('duka',['LIPO','HALIPO']) !!}
+		{!! Form::select('duka',['LIPO'=>'LIPO','HALIPO'=>'HALIPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 </div>&nbsp;
 
 <div class="form-group">
 	{!! Form::label('unasihi','UNASIHI',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('unasihi',['UPO','HAUPO']) !!}
+		{!! Form::select('unasihi',['UPO'=>'UPO','HAUPO'=>'HAUPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 </div>
 
 <div class="form-group">
 	{!! Form::label('mtandao','MTANDAO',['class'=>'col-md-2 control-label']) !!}
 	<div class="col-md-4">
-		{!! Form::select('mtandao',['UPO','HAUPO']) !!}
+		{!! Form::select('mtandao',['UPO'=>'UPO','HAUPO'=>'HAUPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 </div>&nbsp;
 
