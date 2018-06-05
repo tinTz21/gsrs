@@ -49,14 +49,16 @@
                         <ul class="nav navbar navbar-left">
                                 <li><a href="{{ route('register') }}">Register School Info</a></li>
                             </ul>
-                            <ul class="nav navbar-left">
+                            <ul class="nav navbar navbar-left">
                                 <li><a href="#">Edit-School-Info</a></li>
+                            </ul>
+                            <ul class="nav navbar navbar-left">
+                                <li><a href="{{ route('taarifayashule') }}">Taarifayashule</a></li>
                             </ul>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>
                                 </a>
-
                                 <ul class="dropdown-menu" role="menu">
                                     <li>
                                         <a href="{{ route('logout') }}"

@@ -15,12 +15,22 @@ class HeadmasterFormsController extends Controller
      */
     public function index()
     {
-        //
+        
     }
 
     public function shule()
     {
         return view('pages.taarifayashule');
+    }
+
+    public function vacancy()
+    {
+        return view('pages.vacancy');
+    }
+
+    public function vitabu()
+    {
+        return view('pages.vitabu');
     }
 
     /**
@@ -43,7 +53,7 @@ class HeadmasterFormsController extends Controller
     {
         $request=Request::all();
         Taarifayashule::create($request);
-        return redirect('pages.taarifayashule');
+        return redirect('admin');
     }
 
     /**
