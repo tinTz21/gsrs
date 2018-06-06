@@ -50,12 +50,14 @@
                             <li><a href="{{ route('wanafunzi') }}">Taarifa za Wanafunzi</a></li>
                             <li><a href="{{ route('vacancy') }}">Mahitaji ya Waalimu</a></li>
                             <li><a href="{{ route('vitabu') }}">Idadi ya Vitabu</a></li>
-                            <li><a href="{{ route('walimu') }}">Taarifa za Walimu</a></li>
+                            <li><a href="{{ route('kiongozi') }}">Kiongozi cha Mwalimu</a></li>
+                            
 
                         <div class="dropdown navbar-left">
                             <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Other reports
                             <span class="caret"></span></button>
                             <ul class="dropdown-menu">
+                                <!-- <li><a href="{{ route('walimu') }}">Taarifa za Walimu</a></li> -->
                                 <li><a href="{{ route('huduma') }}">Huduma zinazotolewa shuleni</a></li>
                                 <li><a href="{{ route('dodoso') }}">Toa Maoni ya Dodoso</a></li>
                             </ul>

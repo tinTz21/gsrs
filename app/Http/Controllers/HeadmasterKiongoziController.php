@@ -2,11 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Request;
-use App\Http\Requests\TaarifayashuleRequest;
-use App\Taarifayashule;
+use Illuminate\Http\Request;
 
-class HeadmasterFormsController extends Controller
+class HeadmasterKiongoziController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -14,26 +12,6 @@ class HeadmasterFormsController extends Controller
      * @return \Illuminate\Http\Response
      */
     public function index()
-    {
-        
-    }
-
-    public function shule()
-    {
-        return view('pages.taarifayashule');
-    }
-
-    public function vacancy()
-    {
-        return view('pages.vacancy');
-    }
-
-    public function vitabu()
-    {
-        return view('pages.vitabu');
-    }
-
-    public function kiongozi()
     {
         return view('pages.kiongozi');
     }
@@ -54,11 +32,9 @@ class HeadmasterFormsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(TaarifayashuleRequest $request)
+    public function store(Request $request)
     {
-        $request=Request::all();
-        Taarifayashule::create($request);
-        return redirect('admin');
+        //
     }
 
     /**
