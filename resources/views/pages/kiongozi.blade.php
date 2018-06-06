@@ -595,6 +595,11 @@
 			{!! Form::text('vilivyopo15',null,['class'=>'form-control']) !!}
 		</div>
 	</div>&nbsp;<hr>
+
+
+	<div class="form-group col-md-5 col-md-offset-4">
+		{!! Form::submit('Send',['class'=>'btn btn-primary form-control']) !!}
+	</div>
 </div>	
 
 {!! Form::close() !!}
