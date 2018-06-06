@@ -88,49 +88,8 @@
         	<div class="col-lg-3">
         		{!! Form::number('total4',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
+        </div>&nbsp;<hr>
 
-        <!-- This is fifth paragraph -->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana5','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana5',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana5','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana5',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total5','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total5',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph -->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana6','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana6',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana6','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana6',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total6','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total6',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
 
 
 
@@ -221,55 +180,14 @@
         	<div class="col-lg-3">
         		{!! Form::number('total10',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is fifth paragraph 11-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana11','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana11',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana11','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana11',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total11','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total11',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 12-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="">
-        	{!! Form::label('wavulana12','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana12',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana12','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana12',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total12','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total12',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
 
 
 
+                                <!-- Miaka 13 -->
 
 
 
@@ -356,55 +274,14 @@
         	<div class="col-lg-3">
         		{!! Form::number('total16',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is fifth paragraph 17-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana17','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana17',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana17','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana17',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total17','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total17',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 18-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana18','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana18',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana18','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana18',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total18','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total18',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
 
 
 
+                                        <!-- miaka 14 -->
 
 
 
@@ -492,52 +369,12 @@
         	<div class="col-lg-3">
         		{!! Form::number('total22',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
+        </div>&nbsp;<hr>
 
-        <!-- This is fifth paragraph 23-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana23','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana23',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana23','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana23',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total23','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total23',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 24-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana24','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana24',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana24','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana24',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total24','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total24',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+      
 
 
-
+                            <!-- miaka 15 -->
 
 
 
@@ -625,49 +462,7 @@
         	<div class="col-lg-3">
         		{!! Form::number('total28',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is fifth paragraph 29-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana29','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana29',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana29','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana29',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total29','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total29',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 30-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana30','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana30',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana30','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana30',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total30','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total30',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
@@ -676,6 +471,7 @@
 
 
 
+                            <!-- miaka 16 -->
 
 
 
@@ -763,49 +559,7 @@
         	<div class="col-lg-3">
         		{!! Form::number('total34',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is fifth paragraph 35-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana35','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana35',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana35','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana35',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total35','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total35',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 36-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana36','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana36',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana36','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana36',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total36','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total36',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
@@ -813,6 +567,7 @@
 
 
 
+                                    <!-- miaka 17 -->
 
 
 
@@ -900,49 +655,7 @@
         	<div class="col-lg-3">
         		{!! Form::number('total40',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is fifth paragraph 41-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana41','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana41',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana41','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana41',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total41','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total41',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 42-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana42','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana42',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana42','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana42',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total42','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total42',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
@@ -952,6 +665,7 @@
 
 
 
+                                            <!-- miaka 18 -->
 
 
 
@@ -1039,55 +753,15 @@
         	<div class="col-lg-3">
         		{!! Form::number('total46',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is fifth paragraph 47-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana47','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana47',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana47','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana47',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total47','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total47',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 48-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana48','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana48',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-groupform-group">
-        	{!! Form::label('wasichana48','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana48',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total48','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total48',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
 
 
 
+
+                                <!-- miaka 19 -->
 
 
 
@@ -1175,54 +849,14 @@
         	<div class="col-lg-3">
         		{!! Form::number('total52',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
+        </div>&nbsp;<hr>
 
-        <!-- This is fifth paragraph 53-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana53','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana53',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana53','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana53',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total53','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total53',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 54-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana54','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana54',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana54','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana54',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total54','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total54',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+       
 
 
 
 
-
+                                <!-- zaidi ya miaka 19 -->
 
 
 
@@ -1295,7 +929,7 @@
         </div>
 
         <!-- This is fifth paragraph 58-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
+        <p style="font-size: 18px">Kidato cha nne.</p>
         <div class="form-group">
         	{!! Form::label('wavulana58','Wavulana',['class'=>'col-lg-1 control-label']) !!}
         	<div class="col-lg-3">
@@ -1313,28 +947,7 @@
         	<div class="col-lg-3">
         		{!! Form::number('total58',null,['class'=>'form-control']) !!}
         	</div>
-        </div>
-
-        <!-- This is sixth paragraph 59-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="">
-        	{!! Form::label('wavulana59','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana59',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana59','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana59',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total59','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total59',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+        </div>&nbsp;<hr>
 
 
 
@@ -1429,47 +1042,7 @@
         	</div>
         </div>
 
-        <!-- This is fifth paragraph 64-->
-        <p style="font-size: 18px">Kidato cha tano.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana64','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana64',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana64','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana64',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total64','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total64',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-
-        <!-- This is sixth paragraph 65-->
-        <p style="font-size: 18px">Kidato cha Sita.</p>
-        <div class="form-group">
-        	{!! Form::label('wavulana65','Wavulana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wavulana65',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-         <div class="form-group">
-        	{!! Form::label('wasichana65','Wasichana',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('wasichana65',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
-        <div class="form-group">
-        	{!! Form::label('total65','Jumla',['class'=>'col-lg-1 control-label']) !!}
-        	<div class="col-lg-3">
-        		{!! Form::number('total65',null,['class'=>'form-control']) !!}
-        	</div>
-        </div>
+       
 
         <div class="form-group">
         	{!! Form::submit('Submit report',['class'=>'btn btn-primary form-control']) !!}
