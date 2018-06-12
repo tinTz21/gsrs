@@ -47,9 +47,9 @@
                             <li><a href="{{ route('register') }}">Register</a></li> -->
                         @else
                         <ul class="nav navbar-nav navbar-left">
-                            <li><a href="{{ route('wanafunzi') }}">Taarifa za Wanafunzi</a></li>
-                            <li><a href="{{ route('vacancy') }}">Mahitaji ya Waalimu</a></li>
-                            <li><a href="{{ route('vitabu') }}">Idadi ya Vitabu</a></li>
+                            <li><a href="{{ route('wanafunzi') }}">wanafunzi</a></li>
+                            <li><a href="{{ route('vacancy') }}">waalimu</a></li>
+                            <li><a href="{{ route('vitabu') }}">vitabu</a></li>
                             <li><a href="{{ route('kiongozi') }}">Kiongozi cha Mwalimu</a></li>
                             
 
@@ -58,6 +58,7 @@
                             <span class="caret"></span></button>
                             <ul class="dropdown-menu">
                                 <!-- <li><a href="{{ route('walimu') }}">Taarifa za Walimu</a></li> -->
+                                <li><a href="{{ route('resources') }}">Resources</a></li>
                                 <li><a href="{{ route('huduma') }}">Huduma zinazotolewa shuleni</a></li>
                                 <li><a href="{{ route('dodoso') }}">Toa Maoni ya Dodoso</a></li>
                             </ul>

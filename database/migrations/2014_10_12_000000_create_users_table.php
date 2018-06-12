@@ -20,6 +20,11 @@ class CreateUsersTable extends Migration
             $table->string('district');
             $table->string('ward');
             $table->string('headmaster');
+            $table->string('slp');
+            $table->string('halmashauri');
+            $table->string('owners');
+            $table->string('jinsi');
+            $table->string('ngazi');
             $table->string('phone');
             $table->string('email')->unique();
             $table->string('password');

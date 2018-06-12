@@ -1,4 +1,4 @@
-@extends('layouts.app')
+@extends('layouts.admin')
 
 @section('content')
 <div class="container">
@@ -79,6 +79,85 @@
                                 @if ($errors->has('headmaster'))
                                     <span class="help-block">
                                         <strong>{{ $errors->first('headmaster') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                                                <!-- new fields here -->
+
+                        <!-- slp -->
+                        <div class="form-group{{ $errors->has('slp') ? ' has-error' : '' }}">
+                            <label for="slp" class="col-md-4 control-label">Anwani S.L.P</label>
+
+                            <div class="col-md-6">
+                                <input id="slp" type="text" class="form-control" name="slp" value="{{ old('slp') }}" required autofocus>
+
+                                @if ($errors->has('slp'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('slp') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <!-- halmashauri -->
+                        <div class="form-group{{ $errors->has('halmashauri') ? ' has-error' : '' }}">
+                            <label for="halmashauri" class="col-md-4 control-label">Halmashauri</label>
+
+                            <div class="col-md-6">
+                                <input id="halmashauri" type="text" class="form-control" name="halmashauri" value="{{ old('halmashauri') }}" required autofocus>
+
+                                @if ($errors->has('halmashauri'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('halmashauri') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                                        <!-- shule ni ya .e.g s.d.a or catholic e.t.c -->
+
+                        <!-- umiliki -->
+                        <div class="form-group{{ $errors->has('owners') ? ' has-error' : '' }}">
+                            <label for="owners" class="col-md-4 control-label">Shule inamilikiwa na</label>
+
+                            <div class="col-md-6">
+                                <input id="owners" type="text" class="form-control" name="owners" value="{{ old('owners') }}" required autofocus>
+
+                                @if ($errors->has('owners'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('owners') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <!-- jinsi -->
+                        <div class="form-group{{ $errors->has('jinsi') ? ' has-error' : '' }}">
+                            <label for="jinsi" class="col-md-4 control-label">Shule ni Jinsia gani</label>
+
+                            <div class="col-md-6">
+                                <input id="jinsi" type="text" class="form-control" name="jinsi" value="{{ old('jinsi') }}" required autofocus>
+
+                                @if ($errors->has('jinsi'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('jinsi') }}</strong>
+                                    </span>
+                                @endif
+                            </div>
+                        </div>
+
+                        <!-- ngazi -->
+                        <div class="form-group{{ $errors->has('ngazi') ? ' has-error' : '' }}">
+                            <label for="ngazi" class="col-md-4 control-label">Ngazi ya Shule</label>
+
+                            <div class="col-md-6">
+                                <input id="ngazi" type="text" class="form-control" name="ngazi" value="{{ old('ngazi') }}" required autofocus>
+
+                                @if ($errors->has('ngazi'))
+                                    <span class="help-block">
+                                        <strong>{{ $errors->first('ngazi') }}</strong>
                                     </span>
                                 @endif
                             </div>

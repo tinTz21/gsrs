@@ -27,7 +27,7 @@ class RegisterController extends Controller
      *
      * @var string
      */
-    protected $redirectTo = '/home';
+    protected $redirectTo = '/admin';
 
     /**
      * Create a new controller instance.
@@ -53,6 +53,11 @@ class RegisterController extends Controller
             'district' => 'required',
             'ward' => 'required',
             'headmaster' => 'required',
+            'slp'=>'required',
+            'halmashauri'=>'required',
+            'owners'=>'required',
+            'jinsi'=>'required',
+            'ngazi'=>'required',
             'phone' => 'required',
             'email' => 'required|string|email|max:255|unique:users',
             'password' => 'required|string|min:6|confirmed',
@@ -73,6 +78,11 @@ class RegisterController extends Controller
             'district' => $data['district'],
             'ward' => $data['ward'],
             'headmaster' => $data['headmaster'],
+            'slp' => $data['slp'],
+            'halmashauri' => $data['halmashauri'],
+            'owners' => $data['owners'],
+            'jinsi' => $data['jinsi'],
+            'ngazi' => $data['ngazi'],
             'phone' => $data['phone'],
             'email' => $data['email'],
             'password' => bcrypt($data['password']),

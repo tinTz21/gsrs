@@ -29,7 +29,7 @@
 
                     <!-- Branding Image -->
                     <a class="navbar-brand" href="{{ url('/') }}">
-                        {{ config('app.name', 'Laravel') }}
+                        {{ config('app.name', 'gsrs') }}
                     </a>
                 </div>
 
@@ -51,9 +51,6 @@
                             </ul>
                             <ul class="nav navbar navbar-left">
                                 <li><a href="#">Edit-School-Info</a></li>
-                            </ul>
-                            <ul class="nav navbar navbar-left">
-                                <li><a href="{{ route('taarifayashule') }}">Taarifayashule</a></li>
                             </ul>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

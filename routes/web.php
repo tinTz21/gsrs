@@ -57,3 +57,6 @@ Route::post('pages.hudumas','HeadmasterHudumaController@store')->name('hudumas')
 
 Route::get('pages.dodoso','HeadmasterDodosoController@index')->name('dodoso');
 Route::post('pages.maoni','HeadmasterDodosoController@store')->name('maoni');
+
+Route::get('pages.index','MiundoMbinuController@index')->name('resources');
+Route::post('pages','MiundoMbinuController@store');
