@@ -3,6 +3,18 @@
 @section('content')
 
 {!! Form::open(['action'=>'MiundoMbinuController@store','method'=>'POST']) !!}
+{{csrf_field()}}
+        @if(count($errors) > 0)
+             @foreach($errors->all() as $error)
+                <div class="alert alert-danger">{{$error}}</div>
+             @endforeach
+        @endif 
+
+        @if(session('response'))
+          <div class="alert alert-success">
+              {{session('response')}}
+          </div>
+        @endif
 <h4 style="text-align: center;">MIUNDO MBINU INAYOPATIKANA SHULENI.</h4><hr>
 <div class="form-group col-md-8 col-md-offset-2">
 	<p style="text-align: center; font-size: 18"><strong>MADARASA</strong></p>

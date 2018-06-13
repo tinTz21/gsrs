@@ -4,6 +4,20 @@
 <p style="text-align: center;font-size: 20px;">Idadi ya wanafunzi wote kwa umri, jina na kidato</p>
 
 {!! Form::open() !!}
+
+{{csrf_field()}}
+        @if(count($errors) > 0)
+             @foreach($errors->all() as $error)
+                <div class="alert alert-danger">{{$error}}</div>
+             @endforeach
+        @endif 
+
+        @if(session('response'))
+          <div class="alert alert-success">
+              {{session('response')}}
+          </div>
+        @endif
+
 <div class="col-lg-offset-1">
 <h4 style="text-align: center;">Wanafunzi chini ya miaka 12.</h4>
 

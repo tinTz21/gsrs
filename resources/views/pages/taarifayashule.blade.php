@@ -2,6 +2,18 @@
 
 @section('content')
 {!! Form::open(['action'=>'HeadmasterFormsController@store','method'=>'POST']) !!}
+{{csrf_field()}}
+        @if(count($errors) > 0)
+             @foreach($errors->all() as $error)
+                <div class="alert alert-danger">{{$error}}</div>
+             @endforeach
+        @endif 
+
+        @if(session('response'))
+          <div class="alert alert-success">
+              {{session('response')}}
+          </div>
+        @endif
 
 <div class="col-md-8 col-md-offset-2">
 <h4 style="text-align: center;">TAARIFA YA SHULE</h4>

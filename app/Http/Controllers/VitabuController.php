@@ -2,11 +2,11 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests\VitabuRequest;
 use Request;
-use App\Http\Requests\TaarifayashuleRequest;
-use App\Taarifayashule;
+use App\Vitabu;
 
-class HeadmasterFormsController extends Controller
+class VitabuController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -15,23 +15,7 @@ class HeadmasterFormsController extends Controller
      */
     public function index()
     {
-        //
-    }
-
-    public function shule()
-    {
-        return view('pages.taarifayashule');
-    }
-
-    public function vacancy()
-    {
-        return view('pages.vacancy');
-    }
-
-
-    public function kiongozi()
-    {
-        return view('pages.kiongozi');
+        return view('pages.vitabu');
     }
 
     /**
@@ -50,11 +34,11 @@ class HeadmasterFormsController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(TaarifayashuleRequest $request)
+    public function store(VitabuRequest $request)
     {
         $request=Request::all();
-        Taarifayashule::create($request);
-        return redirect('admin');
+        Vitabu::create($request);
+        return redirect('/home');
     }
 
     /**

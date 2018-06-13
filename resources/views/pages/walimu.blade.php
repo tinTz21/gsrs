@@ -6,6 +6,20 @@
 	<p style="text-align: center; font-size: 18px;">KIWANGO CHA ELIMU</p><hr>
 {!! Form::open() !!}
 
+
+{{csrf_field()}}
+        @if(count($errors) > 0)
+             @foreach($errors->all() as $error)
+                <div class="alert alert-danger">{{$error}}</div>
+             @endforeach
+        @endif 
+
+        @if(session('response'))
+          <div class="alert alert-success">
+              {{session('response')}}
+          </div>
+        @endif
+
 					<!-- SHAHAGA YA UZAMIVU SAYANSI-->
 
 <h3 style="text-align: center;">1. WALIMU WENYE SHAHADA YA UZAMIVU SAYANSI</h3>

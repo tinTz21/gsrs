@@ -45,7 +45,6 @@ Route::post('pages.store', 'OfficerController@store')->name('store');
 Route::get('pages.taarifayashule','HeadmasterFormsController@shule')->name('taarifayashule');
 Route::post('pages','HeadmasterFormsController@store');
 Route::get('pages.vacancy','HeadmasterFormsController@vacancy')->name('vacancy');
-Route::get('pages.vitabu','HeadmasterFormsController@vitabu')->name('vitabu');
 
 Route::get('pages.kiongozi','HeadmasterKiongoziController@index')->name('kiongozi');
 
@@ -59,7 +58,10 @@ Route::get('pages.dodoso','HeadmasterDodosoController@index')->name('dodoso');
 Route::post('pages.maoni','HeadmasterDodosoController@store')->name('maoni');
 
 Route::get('pages.index','MiundoMbinuController@index')->name('resources');
-Route::post('pages','MiundoMbinuController@store');
+Route::post('pages.resources','MiundoMbinuController@store');
 
 Route::get('pages.kiongozi','HeadmasterKiongoziController@index')->name('kiongozi');
 Route::post('pages','HeadmasterKiongoziController@store');
+
+Route::get('pages.vitabu','VitabuController@index')->name('vitabu');
+Route::post('pages.vitabu','VitabuController@store');
