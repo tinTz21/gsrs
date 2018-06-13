@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\KiongoziRequest;
+use Request;
+use App\Kiongozi;
 
 class HeadmasterKiongoziController extends Controller
 {
@@ -32,9 +34,11 @@ class HeadmasterKiongoziController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(KiongoziRequest $request)
     {
-        //
+        $request=Request::all();
+        kiongozi::create($request);
+        return redirect('/home');
     }
 
     /**

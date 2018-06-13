@@ -60,3 +60,6 @@ Route::post('pages.maoni','HeadmasterDodosoController@store')->name('maoni');
 
 Route::get('pages.index','MiundoMbinuController@index')->name('resources');
 Route::post('pages','MiundoMbinuController@store');
+
+Route::get('pages.kiongozi','HeadmasterKiongoziController@index')->name('kiongozi');
+Route::post('pages','HeadmasterKiongoziController@store');

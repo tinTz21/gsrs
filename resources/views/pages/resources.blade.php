@@ -3,52 +3,52 @@
 @section('content')
 
 {!! Form::open(['action'=>'MiundoMbinuController@store','method'=>'POST']) !!}
-<h4 style="text-align: center;">RESOURCES AVAILABLE AT SCHOOL</h4><hr>
+<h4 style="text-align: center;">MIUNDO MBINU INAYOPATIKANA SHULENI.</h4><hr>
 <div class="form-group col-md-8 col-md-offset-2">
-	<p style="text-align: center; font-size: 18"><strong>CLASS ROOMS</strong></p>
-	{!! Form::label('class','Rooms Available') !!}
+	<p style="text-align: center; font-size: 18"><strong>MADARASA</strong></p>
+	{!! Form::label('class','Madarasa Yaliyopo') !!}
 	{!! Form::number('class',null,['class'=>'form-control']) !!}
 
-	{!! Form::label('class1','Rooms Required') !!}
+	{!! Form::label('class1','Madarasa Yanayohitajika') !!}
 	{!! Form::number('class1',null,['class'=>'form-control']) !!}
 </div>
 
 
 <div class="form-group col-md-8 col-md-offset-2">
-	<p style="text-align: center; font-size: 18"><strong>CHAIRS</strong></p>
-	{!! Form::label('chair','Chairs Available') !!}
+	<p style="text-align: center; font-size: 18"><strong>VITI</strong></p>
+	{!! Form::label('chair','Viti Vilivyopo') !!}
 	{!! Form::number('chair',null,['class'=>'form-control']) !!}
 
-	{!! Form::label('chair1','Chairs Required') !!}
+	{!! Form::label('chair1','Viti Vinavyohitajika') !!}
 	{!! Form::number('chair1',null,['class'=>'form-control']) !!}
 </div>
 
 
 <div class="form-group col-md-8 col-md-offset-2">
-	<p style="text-align: center; font-size: 18"><strong>TABLES</strong></p>
-	{!! Form::label('table','Tables Available') !!}
+	<p style="text-align: center; font-size: 18"><strong>MEZA</strong></p>
+	{!! Form::label('table','Meza Zilizopo') !!}
 	{!! Form::number('table',null,['class'=>'form-control']) !!}
 
-	{!! Form::label('table1','Tables Required') !!}
+	{!! Form::label('table1','Meza Zinazohitajika') !!}
 	{!! Form::number('table1',null,['class'=>'form-control']) !!}
 </div>
 
 
 <div class="form-group col-md-8 col-md-offset-2">
-	<p style="text-align: center; font-size: 18"><strong>GIRLS TOILETS</strong></p>
-	{!! Form::label('toilet','Rooms Available') !!}
+	<p style="text-align: center; font-size: 18"><strong>VYOO VYA KIKE</strong></p>
+	{!! Form::label('toilet','Vyoo Vilivyopo') !!}
 	{!! Form::number('toilet',null,['class'=>'form-control']) !!}
 
-	{!! Form::label('toilet1','Rooms Required') !!}
+	{!! Form::label('toilet1','Vyoo vinavyohitajika') !!}
 	{!! Form::number('toilet1',null,['class'=>'form-control']) !!}
 </div>
 
 <div class="form-group col-md-8 col-md-offset-2">
-	<p style="text-align: center; font-size: 18"><strong>BOYS TOILETS</strong></p>
-	{!! Form::label('boys','Rooms Available') !!}
+	<p style="text-align: center; font-size: 18"><strong>VYOO VYA KIUME</strong></p>
+	{!! Form::label('boys','Vyoo Vilivyopo') !!}
 	{!! Form::number('boys',null,['class'=>'form-control']) !!}
 
-	{!! Form::label('boys1','Rooms Required') !!}
+	{!! Form::label('boys1','Vyoo vinavyohitajika') !!}
 	{!! Form::number('boys1',null,['class'=>'form-control']) !!}
 </div>
 

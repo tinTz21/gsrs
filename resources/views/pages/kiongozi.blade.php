@@ -1,7 +1,7 @@
 @extends('layouts.headmaster')
 @section('content')
 
-{!! Form::open() !!}
+{!! Form::open(['action'=>'HeadmasterKiongoziController@store','method'=>'POST']) !!}
 <div class="col-md-10 col-md-offset-1">
 <h3 style="text-align: center;">IDADI YA VITABU VYA KIONGOZI CHA MWALIMU KWA MASOMO NA KIDATO</h3><hr>
 
@@ -154,36 +154,44 @@
 
 
 
-								<!-- Kidato cha 2 -->
+								<!-- Kidato cha 2 from here it repeats-->
+
+
+
+<!-- 167 -->
+
+
+
+
 
 <h4 style="text-align: center;"><strong>Kidato cha 2</strong></h4>
 								<!-- Basic Mathematics3 -->
 	<div class="form-group">
 	<p>Basic Mathematics</p>
-		{!! Form::label('mahitaji','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji16','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji16',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo16','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo16',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Biology 1&2 -->
 
 	<div class="form-group">
 	<p>Biology</p>
-		{!! Form::label('mahitaji1','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji17','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji1',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji17',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo2','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo17','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo2',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo17',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
@@ -191,15 +199,15 @@
 
 	<div class="form-group">
 	<p>Chemistry</p>
-		{!! Form::label('mahitaji3','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji18','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji3',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji18',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo4','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo18','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo4',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo18',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
@@ -207,89 +215,89 @@
 
 	<div class="form-group">
 	<p>Civics</p>
-		{!! Form::label('mahitaji4','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji19','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji4',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji19',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo5','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo19','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo5',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo19',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- Geography 6&7 -->
 	<div class="form-group">
 	<p>Geography</p>
-		{!! Form::label('mahitaji6','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji20','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji6',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji20',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo7','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo20','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo7',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo20',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Histroy 8&9 -->
 
 	<div class="form-group">
 	<p>History</p>
-		{!! Form::label('mahitaji8','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji21','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji8',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji21',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo9','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo21','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo9',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo21',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- English Language 10&11-->
 	<div class="form-group">
 	<p>English Language</p>
-		{!! Form::label('mahitaji10','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji2','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji10',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji22',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo11','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo22','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo11',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo22',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Kiswahili 12&13 -->
 	<div class="form-group">
 	<p>Kiswahili</p>
-		{!! Form::label('mahitaji12','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji23','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji12',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji23',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo13','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo23','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo13',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo23',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- Physics 14&15 -->
 	<div class="form-group">
 	<p>Physics</p>
-		{!! Form::label('mahitaji4','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji24','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji14',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji24',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo15','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo24','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo15',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo24',null,['class'=>'form-control']) !!}
 		</div>
 	</div>&nbsp;<hr>
 
@@ -311,30 +319,30 @@
 								<!-- Basic Mathematics3 -->
 	<div class="form-group">
 	<p>Basic Mathematics</p>
-		{!! Form::label('mahitaji','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji25','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji25',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo25','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo25',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Biology 1&2 -->
 
 	<div class="form-group">
 	<p>Biology</p>
-		{!! Form::label('mahitaji1','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji26','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji1',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji26',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo2','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo26','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo2',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo26',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
@@ -342,15 +350,15 @@
 
 	<div class="form-group">
 	<p>Chemistry</p>
-		{!! Form::label('mahitaji3','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji27','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji3',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji27',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo4','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo27','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo4',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo27',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
@@ -358,89 +366,89 @@
 
 	<div class="form-group">
 	<p>Civics</p>
-		{!! Form::label('mahitaji4','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji28','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji4',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji28',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo5','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo28','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo5',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo28',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- Geography 6&7 -->
 	<div class="form-group">
 	<p>Geography</p>
-		{!! Form::label('mahitaji6','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji29','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji6',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji29',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo7','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo29','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo7',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo29',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Histroy 8&9 -->
 
 	<div class="form-group">
 	<p>History</p>
-		{!! Form::label('mahitaji8','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji30','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji8',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji30',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo9','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo30','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo9',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo30',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- English Language 10&11-->
 	<div class="form-group">
 	<p>English Language</p>
-		{!! Form::label('mahitaji10','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji31','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji10',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji31',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo11','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo31','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo11',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo31',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Kiswahili 12&13 -->
 	<div class="form-group">
 	<p>Kiswahili</p>
-		{!! Form::label('mahitaji12','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji32','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji12',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji32',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo13','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo32','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo13',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo32',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- Physics 14&15 -->
 	<div class="form-group">
 	<p>Physics</p>
-		{!! Form::label('mahitaji4','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji33','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji14',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji33',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo15','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo33','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo15',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo33',null,['class'=>'form-control']) !!}
 		</div>
 	</div>&nbsp;<hr>
 
@@ -463,30 +471,30 @@
 								<!-- Basic Mathematics3 -->
 	<div class="form-group">
 	<p>Basic Mathematics</p>
-		{!! Form::label('mahitaji','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji34','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji34',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo34','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo34',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Biology 1&2 -->
 
 	<div class="form-group">
 	<p>Biology</p>
-		{!! Form::label('mahitaji1','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji35','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji1',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji35',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo2','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo35','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo2',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo35',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
@@ -494,15 +502,15 @@
 
 	<div class="form-group">
 	<p>Chemistry</p>
-		{!! Form::label('mahitaji3','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji36','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji3',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji36',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo4','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo36','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo4',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo36',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
@@ -510,89 +518,89 @@
 
 	<div class="form-group">
 	<p>Civics</p>
-		{!! Form::label('mahitaji4','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji37','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji4',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji37',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo5','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo37','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo5',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo37',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- Geography 6&7 -->
 	<div class="form-group">
 	<p>Geography</p>
-		{!! Form::label('mahitaji6','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji38','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji6',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji38',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo7','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo38','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo7',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo38',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Histroy 8&9 -->
 
 	<div class="form-group">
 	<p>History</p>
-		{!! Form::label('mahitaji8','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji39','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji8',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji39',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo9','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo39','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo9',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo39',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- English Language 10&11-->
 	<div class="form-group">
 	<p>English Language</p>
-		{!! Form::label('mahitaji10','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji40','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji10',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji40',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo11','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo40','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo11',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo40',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 								<!-- Kiswahili 12&13 -->
 	<div class="form-group">
 	<p>Kiswahili</p>
-		{!! Form::label('mahitaji12','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji41','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji12',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji41',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo13','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo41','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo13',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo41',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 
 								<!-- Physics 14&15 -->
 	<div class="form-group">
 	<p>Physics</p>
-		{!! Form::label('mahitaji4','Mahitaji',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('mahitaji42','Mahitaji',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('mahitaji14',null,['class'=>'form-control']) !!}
+			{!! Form::text('mahitaji42',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
 	<div class="form-group">
-		{!! Form::label('vilivyopo15','Vilivyopo',['class'=>'control-label col-md-1']) !!}
+		{!! Form::label('vilivyopo42','Vilivyopo',['class'=>'control-label col-md-1']) !!}
 		<div class="col-md-5">
-			{!! Form::text('vilivyopo15',null,['class'=>'form-control']) !!}
+			{!! Form::text('vilivyopo42',null,['class'=>'form-control']) !!}
 		</div>
 	</div>&nbsp;<hr>
 
