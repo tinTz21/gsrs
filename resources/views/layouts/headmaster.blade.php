@@ -60,7 +60,7 @@
                                 <!-- <li><a href="{{ route('walimu') }}">Taarifa za Walimu</a></li> -->
                                 <li><a href="{{ route('resources') }}">Resources</a></li>
                                 <li><a href="{{ route('huduma') }}">Huduma zinazotolewa shuleni</a></li>
-                                <li><a href="{{ route('dodoso') }}">Toa Maoni ya Dodoso</a></li>
+                               <!--  <li><a href="{{ route('dodoso') }}">Toa Maoni ya Dodoso</a></li> -->
                             </ul>
                         </div>
                         
