@@ -2,9 +2,11 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\WaalimuRequest;
+use Request;
+use App\Waalimu;
 
-class HeadmasterWalimuController extends Controller
+class HeadmasterWaalimuController extends Controller
 {
     /**
      * Display a listing of the resource.
@@ -13,7 +15,7 @@ class HeadmasterWalimuController extends Controller
      */
     public function index()
     {
-        return view('pages.walimu');
+        return view('pages.waalimu');
     }
 
     /**
@@ -32,9 +34,11 @@ class HeadmasterWalimuController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(WaalimuRequest $request)
     {
-        //
+        $request=Request::all();
+        Waalimu::create($request);
+        return redirect('/home');
     }
 
     /**

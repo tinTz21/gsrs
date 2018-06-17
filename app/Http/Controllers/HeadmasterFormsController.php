@@ -23,10 +23,6 @@ class HeadmasterFormsController extends Controller
         return view('pages.taarifayashule');
     }
 
-    public function vacancy()
-    {
-        return view('pages.vacancy');
-    }
 
 
     public function kiongozi()

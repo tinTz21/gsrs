@@ -2,9 +2,20 @@
 
 @section('content')
 
-{!! Form::open() !!}
-<h3 style="text-align: center;">IDADI YA WALIMU WOTE WENYE AJIRA YA KUDUMU/MKATABA (PERMANENT/CONTRACT) KWA
-MASOMO</h3>
+{!! Form::open(['action'=>'HeadmasterWaalimuController@store','method'=>'POST']) !!}
+{{csrf_field()}}
+        @if(count($errors) > 0)
+             @foreach($errors->all() as $error)
+                <div class="alert alert-danger">{{$error}}</div>
+             @endforeach
+        @endif 
+
+        @if(session('response'))
+          <div class="alert alert-success">
+              {{session('response')}}
+          </div>
+        @endif
+<h3 style="text-align: center;">IDADI YA WAALIMU WOTE WENYE AJIRA YA KUDUMU/MKATABA (PERMANENT/CONTRACT) KWA MASOMO</h3>
 <div class="col-md-offset-1">
 
 								<!-- Basic Mathematics -->

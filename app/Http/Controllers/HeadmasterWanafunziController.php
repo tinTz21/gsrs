@@ -2,7 +2,9 @@
 
 namespace App\Http\Controllers;
 
-use Illuminate\Http\Request;
+use App\Http\Requests\WanafunziRequest;
+use Request;
+use App\Wanafunzi;
 
 class HeadmasterWanafunziController extends Controller
 {
@@ -32,9 +34,11 @@ class HeadmasterWanafunziController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(Request $request)
+    public function store(WanafunziRequest $request)
     {
-        //
+        $request=Request::all();
+        Wanafunzi::create($request);
+        return redirect('/home');
     }
 
     /**

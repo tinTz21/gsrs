@@ -44,12 +44,15 @@ Route::post('pages.store', 'OfficerController@store')->name('store');
 
 Route::get('pages.taarifayashule','HeadmasterFormsController@shule')->name('taarifayashule');
 Route::post('pages','HeadmasterFormsController@store');
-Route::get('pages.vacancy','HeadmasterFormsController@vacancy')->name('vacancy');
+
 
 Route::get('pages.kiongozi','HeadmasterKiongoziController@index')->name('kiongozi');
 
 Route::get('pages.wanafunzi','HeadmasterWanafunziController@index')->name('wanafunzi');
-Route::get('pages.walimu','HeadmasterWalimuController@index')->name('walimu');
+Route::post('pages.wanafunzi','HeadmasterWanafunziController@store');
+
+Route::get('pages.waalimu','HeadmasterWaalimuController@index')->name('waalimu');
+Route::post('pages.waalimu','HeadmasterWaalimuController@store');
 
 Route::get('pages.huduma','HeadmasterHudumaController@index')->name('huduma');
 Route::post('pages.hudumas','HeadmasterHudumaController@store')->name('hudumas');
