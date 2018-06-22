@@ -24,6 +24,7 @@
 		{!! Form::select('usafiri',['UPO'=>'UPO','HAUPO'=>'HAUPO'],null,['placeholder'=>'chagua']) !!}
 	</div>
 	</div>
+	{!! Form::hidden('school_id',$school->id) !!}
 
 <div class="form-group">
 	{!! Form::label('firstaid','HUDUMA YA KWANZA',['class'=>'col-md-3 control-label']) !!}

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\KiongoziRequest;
 use Request;
 use App\Kiongozi;
+use App\User;
 
 class HeadmasterKiongoziController extends Controller
 {
@@ -15,7 +16,10 @@ class HeadmasterKiongoziController extends Controller
      */
     public function index()
     {
-        return view('pages.kiongozi');
+        $data = [
+           'school'=>User::find(1)
+        ];
+        return view('pages.kiongozi',$data);
     }
 
     /**

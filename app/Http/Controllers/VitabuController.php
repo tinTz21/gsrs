@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\VitabuRequest;
 use Request;
 use App\Vitabu;
+use App\User;
 
 class VitabuController extends Controller
 {
@@ -15,7 +16,10 @@ class VitabuController extends Controller
      */
     public function index()
     {
-        return view('pages.vitabu');
+        $data = [
+           'school'=>User::find(1)
+        ];
+        return view('pages.vitabu',$data);
     }
 
     /**

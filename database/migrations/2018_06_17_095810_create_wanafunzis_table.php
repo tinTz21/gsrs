@@ -15,6 +15,7 @@ class CreateWanafunzisTable extends Migration
     {
         Schema::create('wanafunzis', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->integer('wavulana');
             $table->integer('wasichana');
             $table->integer('total');

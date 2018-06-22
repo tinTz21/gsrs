@@ -5,9 +5,17 @@ namespace App\Http\Controllers;
 use App\Http\Requests\WanafunziRequest;
 use Request;
 use App\Wanafunzi;
+use App\User;
 
 class HeadmasterWanafunziController extends Controller
 {
+
+    public function __construct()
+    {
+        $this->middleware('auth:officer');
+    }
+
+     
     /**
      * Display a listing of the resource.
      *
@@ -15,7 +23,8 @@ class HeadmasterWanafunziController extends Controller
      */
     public function index()
     {
-        return view('pages.wanafunzi');
+        $wanafunzishow=Wanafunzi::latest()->get();
+        return view('pages.wanafunzishow')->withWanafunzishow($wanafunzishow);
     }
 
     /**
@@ -25,7 +34,10 @@ class HeadmasterWanafunziController extends Controller
      */
     public function create()
     {
-        //
+        $data = [
+           'school'=>User::find(1)
+        ];
+        return view('pages.wanafunzi',$data);
     }
 
     /**
@@ -49,7 +61,8 @@ class HeadmasterWanafunziController extends Controller
      */
     public function show($id)
     {
-        //
+        $showid=Wanafunzi::findOrFail($id);
+        return view('page.showdent')->withShowid($showid);
     }
 
     /**

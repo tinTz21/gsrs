@@ -15,6 +15,7 @@ class CreateMiundoMbinusTable extends Migration
     {
         Schema::create('miundombinus', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->integer('class');
             $table->integer('class1');
             $table->integer('chair');

@@ -15,6 +15,7 @@ class CreateWaalimusTable extends Migration
     {
         Schema::create('waalimus', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->integer('vacancy1');
             $table->integer('vacancy2');
             $table->integer('vacancy3');

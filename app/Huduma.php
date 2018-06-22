@@ -7,6 +7,6 @@ use Illuminate\Database\Eloquent\Model;
 class Huduma extends Model
 {
     protected $fillable=[
-    	'usafiri','firstaid','ulinzi','duka','unasihi','mtandao'
+    	'usafiri','school_id','firstaid','ulinzi','duka','unasihi','mtandao'
     ];
 }

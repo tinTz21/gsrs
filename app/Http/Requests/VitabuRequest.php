@@ -27,6 +27,7 @@ class VitabuRequest extends FormRequest
             'mahitaji'=>'required',
             'vilivyopo'=>'required',
             'mahitaji1'=>'required',
+            'school_id'=>'required',
             'vilivyopo1'=>'required',
             'mahitaji2'=>'required',
             'vilivyopo2'=>'required',

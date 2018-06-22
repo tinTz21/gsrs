@@ -25,6 +25,7 @@ class HudumaRequest extends FormRequest
     {
         return [
             'usafiri'=>'required',
+            'school_id'=>'required',
             'firstaid'=>'required',
             'ulinzi'=>'required',
             'duka'=>'required',

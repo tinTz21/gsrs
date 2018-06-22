@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\MiundoMbinuRequest;
 use Request;
 use App\Miundombinu;
+use App\User;
 
 class MiundoMbinuController extends Controller
 {
@@ -15,7 +16,10 @@ class MiundoMbinuController extends Controller
      */
     public function index()
     {
-        return view('pages.resources');
+         $data = [
+           'school'=>User::find(1)
+        ];
+        return view('pages.resources',$data);
     }
 
     /**

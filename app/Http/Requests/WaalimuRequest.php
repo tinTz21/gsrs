@@ -25,6 +25,7 @@ class WaalimuRequest extends FormRequest
     {
         return [
             'vacancy1'=>'required',
+            'school_id'=>'required',
             'vacancy2'=>'required',
             'vacancy3'=>'required',
             'vacancy4'=>'required',

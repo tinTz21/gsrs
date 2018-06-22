@@ -15,6 +15,7 @@ class CreateMaonisTable extends Migration
     {
         Schema::create('maonis', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->string('maoni');
             $table->timestamps();
         });

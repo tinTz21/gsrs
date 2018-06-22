@@ -27,6 +27,7 @@ class KiongoziRequest extends FormRequest
             'mahitaji'=>'required',
             'vilivyopo'=>'required',
             'mahitaji1'=>'required',
+            'school_id'=>'required',
             'vilivyopo2'=>'required',
             'mahitaji3'=>'required',
             'vilivyopo4'=>'required',

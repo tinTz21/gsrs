@@ -24,6 +24,7 @@
 	{!! Form::label('class1','Madarasa Yanayohitajika') !!}
 	{!! Form::number('class1',null,['class'=>'form-control']) !!}
 </div>
+{!! Form::hidden('school_id',$school->id) !!}
 
 
 <div class="form-group col-md-8 col-md-offset-2">

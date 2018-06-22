@@ -44,6 +44,7 @@
         		{!! Form::number('total',null,['class'=>'form-control']) !!}
         	</div>
         </div>
+        {!! Form::hidden('school_id',$school->id) !!}
         <!-- This is second paragraph 61-->
         <p style="font-size: 18px">Kidato cha Pili.</p>
         <div class="form-group">

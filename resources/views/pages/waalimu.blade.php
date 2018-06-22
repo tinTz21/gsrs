@@ -33,6 +33,7 @@
 		{!! Form::text('vacancy2',null,['class'=>'form-control']) !!}
 	</div>
 </div>
+{!! Form::hidden('school_id',$school->id) !!}
 
 
 

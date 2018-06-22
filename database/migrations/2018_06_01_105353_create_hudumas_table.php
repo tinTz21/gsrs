@@ -15,6 +15,7 @@ class CreateHudumasTable extends Migration
     {
         Schema::create('hudumas', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->string('usafiri');
             $table->string('firstaid');
             $table->string('ulinzi');

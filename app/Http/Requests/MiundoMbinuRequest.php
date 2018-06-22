@@ -25,6 +25,7 @@ class MiundoMbinuRequest extends FormRequest
     {
         return [
             'class'=>'required',
+            'school_id'=>'required',
             'class1'=>'required',
             'chair'=>'required',
             'chair1'=>'required',

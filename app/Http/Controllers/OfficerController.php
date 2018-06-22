@@ -24,8 +24,10 @@ class OfficerController extends Controller
     }
 
     public function schoollist(){
-        $schoollist=User::latest()->get();
-        return view('pages.school')->withSchoollist($schoollist);
+        $data = [
+            'schoollist'=>User::with(['wanafunzi','waalimu','vitabu','kiongozi'])->latest()->get(),
+        ];
+        return view('pages.school',$data);
     }
 
     /**

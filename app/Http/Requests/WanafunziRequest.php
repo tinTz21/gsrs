@@ -27,6 +27,7 @@ class WanafunziRequest extends FormRequest
             'wavulana'=>'required',
             'wasichana'=>'required',
             'total'=>'required',
+            'school_id'=>'required',
             'wavulana1'=>'required',
             'wasichana1'=>'required',
             'total1'=>'required',

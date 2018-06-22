@@ -15,6 +15,7 @@ class CreateKiongozisTable extends Migration
     {
         Schema::create('kiongozis', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->integer('mahitaji');
             $table->integer('vilivyopo');
             $table->integer('mahitaji1');

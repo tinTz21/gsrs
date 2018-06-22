@@ -43,13 +43,15 @@ Route::get('pages.create','OfficerController@create')->name('create');
 Route::post('pages.store', 'OfficerController@store')->name('store');
 
 Route::get('pages.taarifayashule','HeadmasterFormsController@shule')->name('taarifayashule');
-Route::post('pages','HeadmasterFormsController@store');
+Route::post('pages.taarifayashule','HeadmasterFormsController@store');
 
 
 Route::get('pages.kiongozi','HeadmasterKiongoziController@index')->name('kiongozi');
 
-Route::get('pages.wanafunzi','HeadmasterWanafunziController@index')->name('wanafunzi');
+Route::get('pages.wanafunzi','HeadmasterWanafunziController@create')->name('wanafunzi');
 Route::post('pages.wanafunzi','HeadmasterWanafunziController@store');
+Route::get('pages.wanafunzishow','HeadmasterWanafunziController@index')->name('wanafunzishow');
+Route::get('page/{id}','HeadmasterWanafunziController@show')->name('showdent'); 
 
 Route::get('pages.waalimu','HeadmasterWaalimuController@index')->name('waalimu');
 Route::post('pages.waalimu','HeadmasterWaalimuController@store');

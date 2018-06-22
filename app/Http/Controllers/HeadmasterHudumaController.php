@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use Request;
 use App\Http\Requests\HudumaRequest;
 use App\Huduma;
+use App\User;
 
 class HeadmasterHudumaController extends Controller
 {
@@ -15,7 +16,10 @@ class HeadmasterHudumaController extends Controller
      */
     public function index()
     {
-        return view('pages.huduma');
+        $data = [
+           'school'=>User::find(1)
+        ];
+        return view('pages.huduma',$data);
     }
 
     /**
@@ -38,7 +42,7 @@ class HeadmasterHudumaController extends Controller
     {
         $request=Request::all();
         Huduma::create($request);
-        return view('pages.taarifayashule');
+        return view('/home');
     }
 
     /**

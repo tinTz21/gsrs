@@ -15,6 +15,7 @@ class CreateVitabusTable extends Migration
     {
         Schema::create('vitabus', function (Blueprint $table) {
             $table->increments('id');
+            $table->integer('school_id');
             $table->integer('mahitaji');
             $table->integer('vilivyopo');
             $table->integer('mahitaji1');

@@ -5,6 +5,7 @@ namespace App\Http\Controllers;
 use App\Http\Requests\WaalimuRequest;
 use Request;
 use App\Waalimu;
+use App\User;
 
 class HeadmasterWaalimuController extends Controller
 {
@@ -15,7 +16,10 @@ class HeadmasterWaalimuController extends Controller
      */
     public function index()
     {
-        return view('pages.waalimu');
+        $data = [
+           'school'=>User::find(1)
+        ];
+        return view('pages.waalimu',$data);
     }
 
     /**

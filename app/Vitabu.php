@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Vitabu extends Model
 {
     protected $fillable = [
-    'mahitaji','vilivyopo','mahitaji1','vilivyopo1','mahitaji2','vilivyopo2','mahitaji3','vilivyopo3','mahitaji4',
+    'mahitaji','vilivyopo','mahitaji1','school_id','vilivyopo1','mahitaji2','vilivyopo2','mahitaji3','vilivyopo3','mahitaji4',
 	'vilivyopo4','mahitaji5','vilivyopo5','mahitaji6','vilivyopo6','mahitaji7','vilivyopo7','mahitaji8','vilivyopo8',
 	'mahitaji9','vilivyopo9','mahitaji10','vilivyopo10','mahitaji11','vilivyopo11','mahitaji12','vilivyopo12',
 	'mahitaji13','vilivyopo13','mahitaji14','vilivyopo14','mahitaji15','vilivyopo15','mahitaji16','vilivyopo16',

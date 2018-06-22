@@ -54,11 +54,11 @@
                             
 
                         <div class="dropdown navbar-left">
-                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Other reports
+                            <button class="btn btn-primary dropdown-toggle" type="button" data-toggle="dropdown">Ripoti-zingine
                             <span class="caret"></span></button>
                             <ul class="dropdown-menu">
                                 
-                                <li><a href="{{ route('resources') }}">Resources</a></li>
+                                <li><a href="{{ route('resources') }}">MiundoMbinu</a></li>
                                 <li><a href="{{ route('huduma') }}">Huduma zinazotolewa shuleni</a></li>
                                <!--  <li><a href="{{ route('dodoso') }}">Toa Maoni ya Dodoso</a></li> -->
                             </ul>

@@ -34,6 +34,9 @@
 			{!! Form::text('vilivyopo',null,['class'=>'form-control']) !!}
 		</div>
 	</div>
+	{!! Form::hidden('school_id',$school->id) !!}
+
+	
 								<!-- Biology 1&2 -->
 
 	<div class="form-group">

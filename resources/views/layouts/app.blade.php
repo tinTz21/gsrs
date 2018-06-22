@@ -47,9 +47,9 @@
                             <li><a href="{{ route('register') }}">Register</a></li> -->
                         @else
                         <ul class="nav navbar-nav navbar-left">
-                                <li><a href="{{ route('school') }}">Schools Registed</a></li>
-                                <li><a href="#">Advertise</a></li>
-                                <li><a href="{{ route('create') }}">create</a></li>
+                                <li><a href="{{ route('school') }}">Taarifa ya Shule</a></li>
+                                <!-- <li><a href="{{ route('wanafunzishow') }}">wanafunzi</a></li> -->
+                                <li><a href="{{ route('create') }}">Tangaza</a></li>
                             </ul>
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">

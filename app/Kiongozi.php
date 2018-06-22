@@ -7,7 +7,7 @@ use Illuminate\Database\Eloquent\Model;
 class Kiongozi extends Model
 {
     protected $fillable = [
-    	'mahitaji','vilivyopo','mahitaji1','vilivyopo2','mahitaji3','vilivyopo4','mahitaji4','vilivyopo5',
+    	'mahitaji','vilivyopo','school_id','mahitaji1','vilivyopo2','mahitaji3','vilivyopo4','mahitaji4','vilivyopo5',
     	'mahitaji6','vilivyopo7','mahitaji8','vilivyopo9','mahitaji10','vilivyopo11','mahitaji12',
     	'vilivyopo13','mahitaji14','vilivyopo15','mahitaji16','vilivyopo16','mahitaji17','vilivyopo17',
     	'mahitaji18','vilivyopo18','mahitaji19','vilivyopo19',
