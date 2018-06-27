@@ -38,6 +38,18 @@ class User extends Authenticatable
         return $this->hasMany('App\Kiongozi','school_id');
     }
 
+    public function miundombinu()
+    {
+        return $this->hasMany('App\Miundombinu','school_id');
+    }
+
+    public function huduma()
+    {
+        return $this->hasMany('App\Huduma','school_id');
+    }
+
+ 
+
     /**
      * The attributes that should be hidden for arrays.
      *

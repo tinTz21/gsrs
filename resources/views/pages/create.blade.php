@@ -16,7 +16,7 @@
           </div>
         @endif
 <div class="col-md-12 col-md-offset-3">
-<h2>Create an Advertisment to all schools</h2>
+<h2>Create an Advertisment to school</h2>
 	<div class="form-group ">
 		{!! Form::label('name','Name') !!}
 		{!! Form::text('name',null,['class'=>'form-control']) !!}

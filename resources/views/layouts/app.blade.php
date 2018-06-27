@@ -13,9 +13,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body style="height: 500px; background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('../images/background7.jpeg'); background-attachment: fixed; margin-top: 50px;">
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
 

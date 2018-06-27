@@ -13,9 +13,9 @@
     <!-- Styles -->
     <link href="{{ asset('css/app.css') }}" rel="stylesheet">
 </head>
-<body>
+<body style="height: 500px; background-position: center; background-size: cover; background-repeat: no-repeat; background-image: url('../images/background5.jpg'); background-attachment: fixed; margin-top: 50px; margin-top: 70px;">
     <div id="app">
-        <nav class="navbar navbar-default navbar-static-top">
+        <nav class="navbar navbar-inverse navbar-static-top navbar-fixed-top">
             <div class="container">
                 <div class="navbar-header">
 
@@ -49,9 +49,9 @@
                         <ul class="nav navbar navbar-left">
                                 <li><a href="{{ route('register') }}">Register School Info</a></li>
                             </ul>
-                            <ul class="nav navbar navbar-left">
+                            <!-- <ul class="nav navbar navbar-left">
                                 <li><a href="#">Edit-School-Info</a></li>
-                            </ul>
+                            </ul> -->
                             <li class="dropdown">
                                 <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">
                                     {{ Auth::user()->name }} <span class="caret"></span>

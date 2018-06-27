@@ -70,3 +70,5 @@ Route::post('pages','HeadmasterKiongoziController@store');
 
 Route::get('pages.vitabu','VitabuController@index')->name('vitabu');
 Route::post('pages.vitabu','VitabuController@store');
+
+Route::get('pages.tangaza','TangazaController@index')->name('tangaza');

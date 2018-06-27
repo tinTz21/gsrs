@@ -10,10 +10,6 @@ use App\User;
 class HeadmasterWanafunziController extends Controller
 {
 
-    public function __construct()
-    {
-        $this->middleware('auth:officer');
-    }
 
      
     /**

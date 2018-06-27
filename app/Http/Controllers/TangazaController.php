@@ -1,18 +1,13 @@
 <?php
 
 namespace App\Http\Controllers;
-use App\Comment;
 
-use App\Http\Requests\CommentRequest;
-use Request;
+use Illuminate\Http\Request;
+use App\Comment;
 use App\User;
 
-class OfficerController extends Controller
+class TangazaController extends Controller
 {
-    public function __construct()
-    {
-        $this->middleware('auth:officer');
-    }
     /**
      * Display a listing of the resource.
      *
@@ -20,14 +15,11 @@ class OfficerController extends Controller
      */
     public function index()
     {
-        return view('officer');
-    }
-
-    public function schoollist(){
         $data = [
-            'schoollist'=>User::with(['wanafunzi','waalimu','vitabu','kiongozi','miundombinu','huduma'])->latest()->get(),
+           'school'=>User::find(1)
         ];
-        return view('pages.school',$data);
+        $tangazo=Comment::latest()->get();
+        return view('pages.tangaza',compact('data','tangazo'));
     }
 
     /**
@@ -37,7 +29,7 @@ class OfficerController extends Controller
      */
     public function create()
     {
-        return view('pages.create');
+        //
     }
 
     /**
@@ -46,11 +38,9 @@ class OfficerController extends Controller
      * @param  \Illuminate\Http\Request  $request
      * @return \Illuminate\Http\Response
      */
-    public function store(CommentRequest $request)
+    public function store(Request $request)
     {
-        $request=Request::all();
-        Comment::create($request);
-        return redirect('officer');
+        //
     }
 
     /**
@@ -61,8 +51,7 @@ class OfficerController extends Controller
      */
     public function show($id)
     {
-        $show=User::findOrFail($id);
-        return view('pages.show')->withShow($show);
+        //
     }
 
     /**
@@ -99,6 +88,3 @@ class OfficerController extends Controller
         //
     }
 }
-
-
-
